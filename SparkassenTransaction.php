@@ -6,17 +6,17 @@ error_reporting(E_ALL);
 
 class SparkassenTransaction {
 	
-	private $auftragskonto;
-	private $buchungstag;
-	private $valutadatum;
-	private $buchungstext;
-	private $verwendungszweck;
-	private $beguenstigter_zahlungspflichtiger;
-	private $kontonummer;
-	private $blz;
-	private $betrag;
-	private $waehrung;
-	private $info;
+	public $auftragskonto;
+	public $buchungstag;
+	public $valutadatum;
+	public $buchungstext;
+	public $verwendungszweck;
+	public $beguenstigter_zahlungspflichtiger;
+	public $kontonummer;
+	public $blz;
+	public $betrag;
+	public $waehrung;
+	public $info;
 	
 	  
   public function getAuftragskonto() {
