@@ -1,5 +1,6 @@
 <?php
 
+
 // Alle Fehler anzeigen
 error_reporting(E_ALL);
 
