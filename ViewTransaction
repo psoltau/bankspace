@@ -1,0 +1,17 @@
+<?php
+
+   // Alle Fehler anzeigen
+   error_reporting(E_ALL);
+
+   require("SparkassenCsvImporter.php");
+	 /*
+   $importer = new SparkassenCsvImporter();
+   $transations = $importer->readData("csv/31_12.csv"); 
+   $importer->writeData($transations);
+	 */
+	 
+	 
+	 $daoSparkassenTransaction = new DAOSparkassenTransaction();
+	 $transactions = $daoSparkassenTransaction->readAllTransactions();
+
+?>
